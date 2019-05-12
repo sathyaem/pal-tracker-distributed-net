@@ -4,9 +4,9 @@ applications:
   instances: 1
   memory: 256M
   routes:
-  - route: timesheets-pal-sathya.cfapps.io
+  - route: timesheets-pal-net-sathya.cfapps.io
   path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sathya.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-net-sathya.cfapps.io
   services:
   - tracker-timesheets-database

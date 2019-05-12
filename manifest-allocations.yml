@@ -4,9 +4,9 @@ applications:
   instances: 1
   memory: 256M
   routes:
-  - route: allocations-pal-sathya.cfapps.io
+  - route: allocations-pal-net-sathya.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-sathya.cfapps.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-net-sathya.cfapps.io
   services:
   - tracker-allocations-database
